@@ -30,7 +30,7 @@ const CartItem = ({ cart, quantity }) => {
     <>
       <div>
         <img
-          src={"https://res.cloudinary.com/www-techis-io/" + cart.image}
+          src={"https://res.cloudinary.com/dc9amay2d/" + cart.image}
           class="item-image"
           alt=""
         />
