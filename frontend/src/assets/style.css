@@ -140,6 +140,7 @@ ul.items li {
 ul.items li img.item-image {
   width: 30%;
   height: fit-content;
+  padding-left: 5%;
 }
 
 ul.items li .info {
@@ -371,6 +372,11 @@ footer button {
   margin: 0 auto;
   width: 24%;
   margin-bottom: 10px;
+}
+
+p.bold2 {
+  display: inline;
+  padding-left: 33%;
 }
 .popup .popup-inner .popup-preview .input p {
   color: #d4a373;

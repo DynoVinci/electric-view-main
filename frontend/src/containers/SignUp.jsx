@@ -45,7 +45,7 @@ const SignUp = () => {
                   <img src={Melodium} alt="" />
                   <p class="bold">Electric Views</p>
                 </div>
-                <p class="bold2">SIGN IN</p>
+                <p class="bold2">SIGN UP</p>
                 <input
                   type="email"
                   class="form-control"
@@ -74,7 +74,7 @@ const SignUp = () => {
               </div>
 
               <button class="button" onClick={signUpButton}>
-                SIGN UP
+                Sign Up
               </button>
               <p class="bottom">
                 Already a Member?{" "}
