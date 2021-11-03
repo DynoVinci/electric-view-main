@@ -43,7 +43,7 @@ const SignUp = () => {
               <div class="input">
                 <div class="Melodum">
                   <img src={Melodium} alt="" />
-                  <p class="bold">Melodum</p>
+                  <p class="bold">Electric Views</p>
                 </div>
                 <p class="bold2">SIGN IN</p>
                 <input
