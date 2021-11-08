@@ -134,11 +134,11 @@ ul.items {
 ul.items li {
   list-style: none;
   display: flex;
-  padding-bottom: 60px;
+  padding-bottom: 15px;
 }
 
 ul.items li img.item-image {
-  width: 30%;
+  width: 60%;
   height: fit-content;
   padding-left: 5%;
 }
@@ -210,9 +210,6 @@ ul.items li .info .info-bottom .number .minus {
 }
 
 @media screen and (max-width: 500px) {
-  .content {
-    padding: 0px 0px 100px 0px;
-  }
   .main-visual img {
     height: 250px;
   }
@@ -230,7 +227,7 @@ ul.items li .info .info-bottom .number .minus {
 
   ul.items li .info .name {
     font-weight: bold;
-    font-size: 14px;
+    font-size: 19px;
   }
 
   ul.items li .info .name-bottom .count {
@@ -251,18 +248,23 @@ ul.items li .info .info-bottom .number .minus {
   }
 
   ul.items li .info .info-bottom .add {
-    font-size: 14px;
-    padding: 0px 15px;
-    line-height: 24px;
+    font-size: 19px;
+    padding: 3px 5px;
+    line-height: 23px;
+    color: #e4e4e4;
     background-color: #ba8046;
+    position: absolute;
+    top: 65px;
   }
 
   ul.items li .info .info-bottom .number {
-    font-size: 14px;
-    padding: 0px 5px;
-    line-height: 24px;
+    font-size: 19px;
+    padding: 3px 5px;
+    line-height: 23px;
     color: #e4e4e4;
-    background-color: #2861cb;
+    background-color: #ba8046;
+    position: absolute;
+    top: 65px;
   }
 }
 
@@ -338,7 +340,7 @@ footer button {
 @media screen and (max-width: 500px) {
   .popup .popup-inner .popup-preview {
     position: absolute;
-    left: 5%;
+    left: 4%;
     width: 90%;
     background-color: #fefae0;
     border: 2px solid #707070;
@@ -461,6 +463,15 @@ p.bold2 {
   color: #ba8046;
   border-collapse: collapse;
 }
+@media screen and (max-width: 500px) {
+  .details .box2 table {
+    font-size: 19px;
+  }
+
+  .details h3 {
+    font-size: 2em;
+  }
+}
 .details .box2 .border {
   border-top: 1px solid #ba8046;
 }
@@ -476,7 +487,7 @@ td {
 .details h3 {
   font-family: Roboto;
   color: #ba8046;
-  font-size: 4em;
+  font-size: 2em;
   font-weight: bolder;
   margin: 0;
 }
@@ -553,10 +564,9 @@ td {
 }
 
 .details .dispatch .form input {
-  width: 100%;
-  padding: 10px;
+  padding: 5px;
   border-radius: 5px;
-  margin: 5px 0 35px;
+  margin: 5px 0 25px;
   font-size: 1.2em;
   border: none;
   background-color: #ba8046;
@@ -580,8 +590,8 @@ td {
 .message p {
   font-family: Roboto;
   color: #ba8046;
-  margin: 10% 30%;
-  width: 30%;
+  margin: 10% 18%;
+  width: 64%;
 }
 
 .backhome button {
@@ -607,4 +617,32 @@ td {
 .message .color {
   font-weight: bold;
   color: black;
+}
+
+@media screen and (max-width: 400px) {
+  .backhome button {
+    margin: 0 63px;
+  }
+}
+.content li {
+  list-style: none;
+}
+.content .item-image {
+  width: 100%;
+}
+.message .color {
+  font-weight: bold;
+  color: black;
+}
+
+@media screen and (max-width: 400px) {
+  .box p {
+    font-family: Roboto;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 15%;
+    position: absolute;
+    top: 40px;
+  }
 }

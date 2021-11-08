@@ -66,9 +66,9 @@ const Signin = () => {
                 Sign In
               </button>
               <p class="bottom">
-                Already a Member?{" "}
+                Want to join the club?{" "}
                 <a href="/signup">
-                  <u>Join Us.</u>
+                  <u>Sign Up.</u>
                 </a>{" "}
               </p>
             </div>
