@@ -24,7 +24,7 @@ Check out [API LIVE DEMO](https://backend-electric-views.herokuapp.com/) here!!
 1. Git Clone
 
 ```
-git clone https://github.com/shivaganeshtechis/Electric-Views
+https://github.com/DynoVinci/electric-view-main
 ```
 
 2. Backend setting
