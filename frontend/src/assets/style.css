@@ -138,7 +138,7 @@ ul.items li {
 }
 
 ul.items li img.item-image {
-  width: 60%;
+  width: 40%;
   height: fit-content;
   padding-left: 5%;
 }
@@ -175,7 +175,7 @@ ul.items li .info .info-bottom {
 
 ul.items li .info .info-bottom .price {
   padding-top: 5px;
-  font-size: 20px;
+  font-size: 16px;
   color: #ba8046;
   font-weight: lighter;
 }
@@ -183,7 +183,7 @@ ul.items li .info .info-bottom .price {
 ul.items li .info .info-bottom .add {
   border: 1px solid #ba8046;
   font-size: 20px;
-  padding: 5px 25px;
+  padding: 5px 15px;
   cursor: pointer;
   background-color: #ba8046;
   color: #ffffff;
