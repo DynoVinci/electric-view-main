@@ -1,7 +1,7 @@
-# Forum App in React & Redux + Django
+# Electric View in React & Redux + Django
 
 ```
-Forum App, with a frontend built in React & Redux and a backend built in Django API.
+Electric View, with a frontend built in React & Redux and a backend built in Django API.
 ```
 
 ## Live Demo
@@ -24,7 +24,7 @@ Check out [API LIVE DEMO](https://backend-electric-views.herokuapp.com/) here!!
 1. Git Clone
 
 ```
-https://github.com/DynoVinci/electric-view-main
+git clone https://github.com/DynoVinci/electric-view-main
 ```
 
 2. Backend setting
